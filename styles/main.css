@@ -1,0 +1,52 @@
+.blue-sect {
+  background-color: #152852;
+}
+
+.red-sect {
+  background-color: #ff756c;
+}
+
+.orange-sect {
+  background-color: #fc9c54;
+}
+
+.yellow-sect {
+  background-color: #ebcc4e;
+}
+
+.white-space {
+  background-color: white;
+}
+
+.red-button {
+  background-color: #ff756c;
+}
+
+.orange-button {
+  background-color: #fc9c54;
+}
+
+.yellow-button {
+  background-color: #ebcc4e;
+}
+
+.blue-button {
+  background-color: #152852;
+}
+
+.font-deco-mobile {
+  font-family: ;
+  font-size: large;
+}
+
+.font-body-mobile {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  color: #152852;
+}
+
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
