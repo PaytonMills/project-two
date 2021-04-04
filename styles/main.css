@@ -1,17 +1,30 @@
 .blue-sect {
   background-color: #152852;
+  color: white;
+  margin: 20px 0px 20px 0;
+  padding:20px;"
 }
 
 .red-sect {
   background-color: #ff756c;
+  color: white;
+  margin: 20px 0px 20px 0;
+  padding:20px;"
 }
-
+ 
 .orange-sect {
   background-color: #fc9c54;
+  color: white;
+  margin: 20px 0px 20px 0;
+  padding:20px;"
 }
 
 .yellow-sect {
   background-color: #ebcc4e;
+  color: white;
+  margin: 20px 0px 20px 0;
+  padding:20px;"
+
 }
 
 .white-space {
