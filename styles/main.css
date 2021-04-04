@@ -125,4 +125,13 @@
   text-decoration: none;
 }
 
-/* Slideshow CSS */
+/* Grids */
+.two-columns-left {
+  width: 60%;
+  float: left;
+}
+
+.two-columns-right {
+  width: 40%;
+  float: left;
+}
