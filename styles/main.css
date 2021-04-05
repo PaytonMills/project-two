@@ -40,6 +40,7 @@
   font-size: x-large;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 25px;
 }
 
 .orange-button {
@@ -51,6 +52,7 @@
   font-size: x-large;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 25px;
 }
 
 .yellow-button {
@@ -63,6 +65,7 @@
   font-size: x-large;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 25px;
 }
 
 .blue-button {
@@ -75,6 +78,7 @@
   font-size: x-large;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 25px;
 }
 
 .nav-ul {
