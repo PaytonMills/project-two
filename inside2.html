@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
-    <script src="./scripts/navbar.js" defer></script>
+    <script src="./scripts/slideshow.js" defer></script>
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Inside2</title>
 </head>
-<body style="margin: 0; font-family: omnes-cyrillic, sans-serif";>
+<body style="margin: 0; font-family: omnes-cyrillic, sans-serif"; >
     <nav>
         <a href="./index.html" class="nav-a nav-font" style="font-size: x-large;"><img src="./images/name-logo-wxyc.png" alt="WXYC logo with text" height="50px" style="margin: 2px;"></a>
         <ul class="nav-ul">
@@ -18,7 +20,7 @@
                 <li style="float: right;"><a href="./inside1.html" class="nav-a nav-font">Listen</a></li>
         </ul>
     </nav> 
-    <h1>DJ Schedule</h1>
+    <h1 style="text-align: center;">DJ Schedule</h1>
     <div style="color: white;background-color: #ff756c; margin: 20px 0px 20px 0; padding:20px;">
         <h2>Monday</h2>
         <ul>
@@ -54,12 +56,29 @@
            <a href="./inside1.html" style="text-decoration: none; color: white;"><b>Listen Now</b></a>
         </button>
     </div>
-    <div>
-        <p>put a slideshow here!!!</p>
-        <script>
-            function 
-        </script>
-    </div>
+    <div class="slideshow" style="margin: 20px 0 20px 0;">
+        <div class="active">
+          <img src="./images/sticker-door-one.JPG" alt="A door with stickers on it";>
+        </div>
+        <div>
+          <img src="./images/room-1.JPG" alt="A room in the WXYC station";>
+        </div>
+        <div>
+          <img src="./images/store-room-1.JPG" alt="A store room in the WXYC station";>
+        </div>
+        <div>
+            <img src="./images/mini-studio-1.JPG" alt="The second studio in the WXYC station";>
+          </div>
+          <div>
+            <img src="./images/living-room-1.JPG" alt="The living room in the WXYC station";>
+          </div>
+        <button id="back">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+        <button id="next">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
     <div class="yellow.sect" style="background-color: #ebcc4e; padding: 10px; margin: 0%;">
         <h1 style="text-align: center; padding:10px; font-size: x-large; color:#152852; background-color: #ebcc4e; margin: 0; font-family: chantal">Follow Us</h1>
         <div style="margin: 2px; text-align: center;">
