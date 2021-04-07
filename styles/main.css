@@ -115,14 +115,18 @@ font-style: normal;
   font-family: "chantal";
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #152852;
+}
+
+
 .nav-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #152852;
-  position: sticky;
-  top: 0;
   width: 100%;
 }
 
@@ -166,6 +170,8 @@ font-style: normal;
   font-size: 20px;
   padding-left: 10px;
 }
+
+/* End Containers*/
 
 .bqstyle {
   font-size: xx-large;
