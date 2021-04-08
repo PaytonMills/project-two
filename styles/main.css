@@ -115,6 +115,7 @@ nav {
   display: flex;
   align-items: center;
   background-color: #152852;
+  width: 100%;
 }
 
 
@@ -149,6 +150,7 @@ nav {
   text-decoration: none;
 }
 
+
 /* Side by side containers*/
 .container {
   display: flex;
@@ -174,11 +176,16 @@ nav {
   color: #152852;
   text-align: center;
   padding: 100px 50px 100px 50px;
+  display: flex;
 }
 
 .story-text {
   font-size: large;
   color:white;
+}
+
+.tpad {
+  padding: 30px 30px 30px 30px;
 }
 
 /* Slideshow CSS */
@@ -246,80 +253,18 @@ nav {
 
 /* Trying to use grids... bear with me */
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 60% 40%;
-}
+
+
 
 /* Desktop */
-@media (min-width: 768px;){
-  
-  .intro-grid {
-    display: grid;
-    grid-template-columns: 70% 30%;
-    width: 100%;
+@media only screen and (min-width: 768px;){
+
+  .tpad {
+    padding: 30px 50px 30px 50px;
   }
 
-  .home-div {
-    display: flex;
-  }
 
-  .intro-pad {
-    padding: 90px 0 90px 0;
-  }
-  
-  .main-header {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .main-header > * {
-    flex: 1 0;
-  }
-
-  .mh-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .h-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .max-width-400 {
-    max-width: 400px;
-  }
-
-  .buttons-place {
-    display: flex;
-  }
-
-  .buttons-place > div {
-    /* Style */
-    flex: 1 0;
-    margin: 0 10px;
-  }
-
-  .buttons-place > div:first-child {
-    margin-left: 0;
-  }
-
-  .buttons-place > div:last-child {
-    margin-right: 0;
-  }
-
-  .flex {
-    display: flex;
-  }
-
-  .flex > * {
-    /* Style */
-    flex: 1 0;
-  }
 }
 
 
  
-
