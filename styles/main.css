@@ -229,13 +229,10 @@ nav {
   right: 0;
 }
 
-/* Signature */
-.signature {
-
-}
+/* Signature Animation */
 
 #signature {
-  stroke-dasharray: 2000;
+  stroke-dasharray: 2000;   /* Moves along path of animation*/
   stroke-dashoffset: 2000;
   animation: sign 4s ease;
   animation-fill-mode: forwards;
@@ -243,7 +240,7 @@ nav {
 
 @keyframes sign {
   to {
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 0; /* Creates animation keyframes*/
   }
 }
 
@@ -255,19 +252,38 @@ nav {
 }
 
 /* Desktop */
-@media {
+@media (min-width: 768px;){
+
+.home-div {
+  display: flex;
+}
+
+.home-div > * {
+  flex: 1 0;
+}
+
+.home-div-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.max-width-300 {
+  max-width: 300px;
+}
+
+
+
+
+
+
+
+}
+
 
 .intro-grid {
   display: grid;
   grid-template-columns: 70% 30%;
   width: 100%;
 }
-}
 
-/* Mobile */
-@media (max-width: 767px) {
-  .intro-grid {
-    display: grid;
-    width: 100%;
-  }
-}
