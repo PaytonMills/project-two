@@ -253,37 +253,23 @@ nav {
 
 /* Desktop */
 @media (min-width: 768px;){
+  
+  .intro-grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 100%;
+  }
 
-.home-div {
-  display: flex;
-}
+  .home-div {
+    display: flex;
+  }
 
-.home-div > * {
-  flex: 1 0;
-}
-
-.home-div-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.max-width-300 {
-  max-width: 300px;
-}
-
-
-
-
-
-
+  .intro-pad {
+    padding: 90px 0 90px 0;
+  }
 
 }
 
 
-.intro-grid {
-  display: grid;
-  grid-template-columns: 70% 30%;
-  width: 100%;
-}
+
 
