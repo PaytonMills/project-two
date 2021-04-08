@@ -267,9 +267,59 @@ nav {
   .intro-pad {
     padding: 90px 0 90px 0;
   }
+  
+  .main-header {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
+  .main-header > * {
+    flex: 1 0;
+  }
+
+  .mh-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .max-width-400 {
+    max-width: 400px;
+  }
+
+  .buttons-place {
+    display: flex;
+  }
+
+  .buttons-place > div {
+    /* Style */
+    flex: 1 0;
+    margin: 0 10px;
+  }
+
+  .buttons-place > div:first-child {
+    margin-left: 0;
+  }
+
+  .buttons-place > div:last-child {
+    margin-right: 0;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex > * {
+    /* Style */
+    flex: 1 0;
+  }
 }
 
 
-
+ 
 
