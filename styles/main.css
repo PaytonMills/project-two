@@ -132,7 +132,6 @@ p {
 
 nav {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   background-color: #152852;
   width: 100%;
@@ -147,25 +146,6 @@ nav {
   display: flex;
   color: white;
   text-decoration: none;
-}
-
-.nav-ul li a {
-  display: inline-block;
-  color: white;
-  font-family: "chantal";
-  text-decoration: none;
-}
-
-.hamburger {
-  background-color: transparent;
-  border-radius: 0px;
-  color: white;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.hamburger:focus {
-  outline: none;
 }
 
 .nav-li {
@@ -336,27 +316,5 @@ svg {
   .grid-two-col {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-
-  .hamburger {
-    display: none;
-  }
-}
-
-/* Mobile Only */
-@media (max-width: 766px) {
-  /* Vertical Nav Hamburger */
-  .nav-ul {
-    display: none;
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .nav-ul.show {
-    display: flex;
-  }
-
-  .hamburger {
-    display: block;
   }
 }
