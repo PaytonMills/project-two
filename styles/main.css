@@ -2,28 +2,33 @@
 
 @import url("https://use.typekit.net/rbw2kdb.css");
 
+img {
+  width: 100%;
+  display: block;
+}
+
 h1 {
   font-family: "chantal";
-     font-weight: 500;
-     font-style: normal;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .chantal {
- font-family: "chantal";
-     font-weight: 500;
-     font-style: normal;
+  font-family: "chantal";
+  font-weight: 500;
+  font-style: normal;
 }
 
 p {
   font-family: "omnes-cyrillic, sans-serif";
-  font-weight:500;
-    font-style: normal;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .omnes {
   font-family: omnes-cyrillic, sans-serif;
-font-weight: 500;
-font-style: normal;
+  font-weight: 500;
+  font-style: normal;
 }
 
 /*Sections for screen dividers*/
@@ -32,28 +37,26 @@ font-style: normal;
   background-color: #152852;
   color: white;
   margin: 20px 0px 20px 0;
-  padding:20px;"
+  padding: 20px;
 }
 
 .red-sect {
   background-color: #ff756c;
   color: white;
   margin: 20px 0px 20px 0;
-  padding:20px;"
+  padding: 20px;
 }
- 
+
 .orange-sect {
   background-color: #fc9c54;
   color: white;
-  margin: 20px 0px 20px 0;
-  padding:20px;"
 }
 
 .yellow-sect {
   background-color: #ebcc4e;
   color: white;
   margin: 20px 0px 20px 0;
-  padding:20px;"
+  padding: 20px;
 }
 
 .red-button {
@@ -68,6 +71,9 @@ font-style: normal;
   cursor: pointer;
   border-radius: 25px;
   font-family: "chantal";
+  display: block;
+  width: 100%;
+  max-width: 250px;
 }
 
 .orange-button {
@@ -81,6 +87,9 @@ font-style: normal;
   cursor: pointer;
   border-radius: 25px;
   font-family: "chantal";
+  display: block;
+  width: 100%;
+  max-width: 250px;
 }
 
 .yellow-button {
@@ -95,6 +104,9 @@ font-style: normal;
   cursor: pointer;
   border-radius: 25px;
   font-family: "chantal";
+  display: block;
+  width: 100%;
+  max-width: 250px;
 }
 
 .blue-button {
@@ -109,6 +121,9 @@ font-style: normal;
   cursor: pointer;
   border-radius: 25px;
   font-family: "chantal";
+  display: block;
+  width: 100%;
+  max-width: 250px;
 }
 
 nav {
@@ -117,7 +132,6 @@ nav {
   background-color: #152852;
   width: 100%;
 }
-
 
 .nav-ul {
   list-style-type: none;
@@ -150,18 +164,11 @@ nav {
   text-decoration: none;
 }
 
-
 /* Side by side containers*/
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.image {
-  flex-basis:40%;
-  padding: 0 0 0 20px;
-  margin: 0px;
 }
 
 .text {
@@ -181,7 +188,7 @@ nav {
 
 .story-text {
   font-size: large;
-  color:white;
+  color: white;
 }
 
 .tpad {
@@ -239,7 +246,7 @@ nav {
 /* Signature Animation */
 
 #signature {
-  stroke-dasharray: 2000;   /* Moves along path of animation*/
+  stroke-dasharray: 2000; /* Moves along path of animation*/
   stroke-dashoffset: 2000;
   animation: sign 4s ease;
   animation-fill-mode: forwards;
@@ -251,20 +258,43 @@ nav {
   }
 }
 
-/* Trying to use grids... bear with me */
-
-
-
+svg {
+  width: ;
+}
 
 /* Desktop */
-@media only screen and (min-width: 768px;){
-
+@media only screen and (min-width: 768px) {
   .tpad {
     padding: 30px 50px 30px 50px;
   }
 
+  .orange-sect {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
 
+  .orange-sect .text {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .orange-sect .image {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  /* Trying to use grids... bear with me */
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+  }
+
+  .flex-buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .grid-two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
-
-
- 

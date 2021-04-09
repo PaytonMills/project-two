@@ -8,9 +8,10 @@
     <script src="./scripts/slideshow.js" defer></script>
     <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Inside2</title>
 </head>
-<body style="margin: 0; font-family: omnes-cyrillic, sans-serif"; >
+<body style="margin: 0; font-family: omnes-cyrillic, sans-serif;">
     <nav>
         <a href="./index.html" class="nav-a nav-font" style="font-size: x-large;"><img src="./images/name-logo-wxyc.png" alt="WXYC logo with text" height="50px" style="margin: 2px;"></a>
         <ul class="nav-ul">
@@ -21,8 +22,8 @@
         </ul>
     </nav> 
     <h1 style="text-align: center;">DJ Schedule</h1>
-    <div style="color: white;background-color: #ff756c; margin: 20px 0px 20px 0; padding:20px;" class="container">
-        <h2 style="width: 40%; float: left; font-size: 40px;">Monday</h2>
+    <div style="color: white;background-color: #ff756c; margin: 20px 0px 20px 0; padding:20px; display: grid;" class="grid-two-col">
+        <h2 style="font-size: 40px; text-align: center;">Monday</h2>
         <ul style="font-size: 20px;">
             <li>12:30AM - 6AM: DJ Atomic Cherry</li>
             <li>6AM - 12PM: DJ Swallowtail</li>
@@ -31,8 +32,10 @@
             <li>9PM - 12:30AM: DJ Archeaologist</li>
         </ul>
     </div>
-    <div style="color: white;background-color: #fc9c54; margin: 20px 0px 20px 0; padding:20px;" class="container">
-        <h2 style="width: 40%; float: left;font-size: 40px;">Tuesday</h2>
+    <div style="color: white;background-color: #fc9c54; margin: 20px 0px 20px 0; padding:20px;" class="grid-two-col">
+        <div style="display: flex;align-items: center; justify-content: center;">
+           <h2 style="font-size: 40px;">Tuesday</h2>
+        </div>
         <ul style="font-size: 20px;">
             <li>12:30AM - 6AM: DJ Squash Casserole</li>
             <li>6AM - 12PM: DJ Cubb</li>
@@ -41,8 +44,8 @@
             <li>9PM - 12:30AM: DJ Low Fruit</li>
         </ul>
     </div>
-    <div style="color: white;background-color: #ebcc4e; margin: 20px 0px 20px 0; padding:20px;" class="container">
-        <h2 style="width: 40%; float: left;font-size: 40px;">Wednesday</h2>
+    <div style="color: white;background-color: #ebcc4e; margin: 20px 0px 20px 0; padding:20px;" class="grid-two-col">
+        <h2 style="font-size: 40px;text-align: center;">Wednesday</h2>
         <ul style="font-size: 20px;">
             <li>12:30AM - 6AM: DJ B-Rad</li>
             <li>6AM - 12PM: DJ COCO PUFF</li>
@@ -79,13 +82,13 @@
           <i class="fas fa-arrow-right"></i>
         </button>
       </div>
-    <div class="yellow.sect" style="background-color: #ebcc4e; padding: 10px; margin: 0%;">
-        <h1 style="text-align: center; padding:10px; font-size: x-large; color:#152852; background-color: #ebcc4e; margin: 0; font-family: chantal">Follow Us</h1>
+      <div class="yellow.sect" style="background-color: #ebcc4e; padding: 10px; margin: 0%;">
+        <h1 style="text-align: center; padding:10px; font-size: x-large; color:#152852; background-color: #ebcc4e; margin: 0; font-family: chantal; ">Follow Us</h1>
         <div style="margin: 2px; text-align: center;">
-            <img src="./images/facebook-icon.png" width="5%" alt="facebook icon">
-            <img src="./images/twitter-icon.png" width="5%" alt="twitter icon">
-            <img src="./images/youtube-icon.png" width="5%" alt="youtube icon">
-            <img src="./images/instagram-icon.png" width="5%" alt="instagram icon">
+            <i class="fab fa-facebook-square" style="color: #152852; font-size: 2em;"></i>
+            <i class="fab fa-twitter-square" style="color: #152852; font-size: 2em;"></i>
+            <i class="fab fa-youtube-square" style="color: #152852; font-size: 2em;"></i>
+            <i class="fab fa-instagram" style="color: #152852; font-size: 2em;"></i>
         </div>
     </div>
 </body>
