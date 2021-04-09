@@ -55,8 +55,6 @@ p {
 .yellow-sect {
   background-color: #ebcc4e;
   color: white;
-  margin: 20px 0px 20px 0;
-  padding: 20px;
 }
 
 .red-button {
@@ -259,7 +257,7 @@ nav {
 }
 
 svg {
-  width: ;
+  width: 300px;
 }
 
 /* Desktop */
@@ -273,11 +271,24 @@ svg {
     grid-template-columns: 2fr 1fr;
   }
 
+  .yellow-sect {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
   .orange-sect .text {
     grid-area: 1 / 1 / 2 / 2;
   }
 
   .orange-sect .image {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .yellow-sect .image {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .yellow-sect .text {
     grid-area: 1 / 2 / 2 / 3;
   }
 
