@@ -2,6 +2,10 @@
 
 @import url("https://use.typekit.net/rbw2kdb.css");
 
+body {
+  line-height: 1.5;
+}
+
 img {
   width: 100%;
   display: block;
