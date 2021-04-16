@@ -18,7 +18,6 @@ var currentIndex = 0;
 var minIndex = 0;
 var maxIndex = slides.length - 1;
 
-
 /*
   Define behavior
     - remove active class from current slide
@@ -29,32 +28,29 @@ var maxIndex = slides.length - 1;
 function toggleSlide(from, to) {
   /* Remove active class from current slideIndex */
   slides[from].classList.remove("active");
-  
+
   /* Add active class to new slideIndex */
   slides[to].classList.add("active");
 }
 
 function changeIndex(by) {
   var newIndex = currentIndex + by; // -1
-  
+
   /* What if (next) the nexIndex is greater than maxIndex */
   if (newIndex > maxIndex) {
-    
     /* The newIndex SHOULD be 0 */
     newIndex = 0;
-    
+
     /* What if (back) the newIndex is less than 0 */
   } else if (newIndex < minIndex) {
-    
     /* The newIndex SHOULD be maxIndex */
     newIndex = maxIndex;
-    
   } else {
     /* The newIndex is valid */
   }
-  
+
   toggleSlide(currentIndex, newIndex); // toggleSlide(from, to)
- 
+
   currentIndex = newIndex;
 }
 
